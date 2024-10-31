@@ -141,11 +141,48 @@ section{
 
 .btn{
     background: var(--main-color);
-    color: var(--second-bg-color);
+    /* color: var(--second-bg-color); */
     padding: 1rem 3rem;
     /* box-shadow: 0 0 1rem var(--main-color); */
     letter-spacing: 0.5rem;
     font-weight: 600;
     border-radius:1rem;
+    color: white;
+
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+.about-img{
+    width: 25%;
+    background-color:var(--main-color);
+    border-radius: 10%;
+}
+.about-img img{
+    width: 100%;
+    max-width: 20rem;
+    border-radius: 10%;
+}
+.about-content{
+    width: 75%;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+
+}
+.about-content h3{
+    font-size: 1.5rem;
+    font-family: "IBM Plex Mono", monospace;
+
+}
+span{
+    color: var(--main-color);
 
 }
