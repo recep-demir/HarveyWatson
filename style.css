@@ -25,6 +25,7 @@ font-family: "Comfortaa", sans-serif; */
 body{
     background-color: var(--bg-color);
     color: var(--text-color);
+    opacity:0.8;
 }
 body a{
     color: var(--text-color);
@@ -79,10 +80,12 @@ section{
 
 /*!Home */
 .home{
+
     display: flex;
     justify-self: center;
     align-items: center;
     gap: 5rem;
+    margin-top: 30px;
 
 
 
@@ -125,14 +128,14 @@ section{
 }
 .social-media{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     /* justify-content: space-evenly; */
 
 }
 .social-media a{
     width:2.5rem;
     height:2.5rem;
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--main-color);
     margin: 5rem 2rem;
     display: flex;
