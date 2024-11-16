@@ -96,8 +96,9 @@ section{
 }
 .home-img{
     width: 30%;
-    background-color:var(--main-color);
+    /* background-color:var(--main-color); */
     border-radius: 10%;
+    overflow: hidden;
 
 }
 .home-img img{
@@ -173,8 +174,9 @@ section{
 }
 .about-img{
     width: 25%;
-    background-color:var(--main-color);
+    /* background-color:var(--main-color); */
     border-radius: 10%;
+    overflow: hidden;
 }
 .about-img img{
     width: 100%;
